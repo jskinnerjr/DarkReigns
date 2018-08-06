@@ -269,7 +269,7 @@ public class TileMapGenerator : MonoBehaviour {
                     //run through list of opennings on prefab
                     while (pO < prospectiveOpennings.Count && !done)
                     {
-                        //place prefab if it fits, and if it does, exit loop and exit the next one too (this leaves us continueing the list of opennings)
+                        //place prefab if it fits, and if it does, exit loop and exit the next one too (this leaves us continuing the list of openings)
                         switch (prospectiveOpennings[pO][0])
                         {
                             case 1: //top
@@ -683,7 +683,7 @@ public class TileMapGenerator : MonoBehaviour {
                     //run through list of opennings on prefab
                     while (pO < prospectiveOpennings.Count && !done)
                     {
-                        //place prefab if it fits, and if it does, exit loop and exit the next one too (this leaves us continueing the list of opennings)
+                        //place prefab if it fits, and if it does, exit loop and exit the next one too (this leaves us continuing the list of openings)
                         switch (prospectiveOpennings[pO][0])
                         {
                             case 1: //top
